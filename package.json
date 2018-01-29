@@ -26,6 +26,7 @@
     "firebase": "^4.9.0",
     "g": "^2.0.1",
     "heroku-cli": "^6.15.18",
+    "history": "^4.7.2",
     "moment": "^2.20.1",
     "moments": "^0.0.2",
     "node-sass": "^4.7.2",
