@@ -31,12 +31,14 @@ After you have cloned the repo simply setup the two .env files as follows with y
 
 * Step 2: open each of the files and add the following keys in each.
 
-`FIREBASE_API_KEY=<your_firebase_api_key>
+~~~~
+FIREBASE_API_KEY=<your_firebase_api_key>
 FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
 FIREBASE_DATABASE_URL=<your_firebase_database_url>
 FIREBASE_PROJECT_ID=<your_firebase_project_id>
 FIREBASE_STORAGE_BUCKET=<your_firebase_storage_bucket>
-FIREBASE_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>`
+FIREBASE_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
+~~~~
 
 Then save.
 
