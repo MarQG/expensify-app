@@ -21,6 +21,8 @@ The Main Dashboard shows a list of all expenses you are currently tracking based
 ## Start your own project
 
 Feel free to clone this repo and build your own version of Expensify!
+After cloning run:
+`npm install`
 
 ### Development
 After you have cloned the repo simply setup the two .env files as follows with your firebase configuration info to work on the application.
