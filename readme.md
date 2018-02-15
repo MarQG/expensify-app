@@ -31,6 +31,7 @@ After you have cloned the repo simply setup the two .env files as follows with y
 
 * Step 2: open each of the files and add the following keys in each.
 
+_emphasize_ .env.test & .env.development _emphasize_
 ~~~~
 FIREBASE_API_KEY=<your_firebase_api_key>
 FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
