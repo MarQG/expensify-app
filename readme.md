@@ -25,9 +25,12 @@ Feel free to clone this repo and build your own version of Expensify!
 ### Development
 After you have cloned the repo simply setup the two .env files as follows with your firebase configuration info to work on the application.
 
-Step 1: in your root directory run:
-> `touch .env.test .env.development`
-Step 2: open each of the files and add the following keys in each.
+* Step 1: in your root directory run:
+
+`touch .env.test .env.development`
+
+* Step 2: open each of the files and add the following keys in each.
+
 `FIREBASE_API_KEY=<your_firebase_api_key>
 FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
 FIREBASE_DATABASE_URL=<your_firebase_database_url>
@@ -39,21 +42,24 @@ Then save.
 
 
 Afer that run to start the dev server:
+
 `yarn run dev-server`
 
 ### Testing
 To run testing you can enter to follow commands to start the test suite:
+
 `yarn test -- --watchAll`
 
 ### Production
 To start the server you need to follow two steps:
-Step 1: `yarn run build:prod`
-Step 2: `yarn start`
+* Step 1: `yarn run build:prod`
+* Step 2: `yarn start`
 
 This will start the webpack process to create a production ready bundle of Expensify for you to server on your favorite deployment tool or run locally.
 
 ### Heroku Deploy
 If you are going to deploy to heroku the webpack server is already setup for deployment. simply setup your heroku create your project folder and push to heroku:
+
 `git push heroku master`
 
 __Strong__ Don't forget to setup the same keys you setup in your .env files in your heroku Congif Vars to get firebase working on heroku. __Strong__
