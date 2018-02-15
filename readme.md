@@ -31,7 +31,7 @@ After you have cloned the repo simply setup the two .env files as follows with y
 
 * Step 2: open each of the files and add the following keys in each.
 
-_emphasize_ .env.test & .env.development _emphasize_
+_.env.test & .env.development_
 ~~~~
 FIREBASE_API_KEY=<your_firebase_api_key>
 FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
@@ -65,7 +65,7 @@ If you are going to deploy to heroku the webpack server is already setup for dep
 
 `git push heroku master`
 
-__Strong__ Don't forget to setup the same keys you setup in your .env files in your heroku Congif Vars to get firebase working on heroku. __Strong__
+__Don't forget to setup the same keys you setup in your .env files in your heroku Congif Vars to get firebase working on heroku.__
 
 This will start the deployment to heroku process and heroku and webpack will build the app for you. 
 
