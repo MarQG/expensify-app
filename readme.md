@@ -39,11 +39,11 @@ Then save.
 
 
 Afer that run to start the dev server:
->`yarn run dev-server`
+`yarn run dev-server`
 
 ### Testing
 To run testing you can enter to follow commands to start the test suite:
-> `yarn test -- --watchAll`
+`yarn test -- --watchAll`
 
 ### Production
 To start the server you need to follow two steps:
@@ -54,7 +54,7 @@ This will start the webpack process to create a production ready bundle of Expen
 
 ### Heroku Deploy
 If you are going to deploy to heroku the webpack server is already setup for deployment. simply setup your heroku create your project folder and push to heroku:
-> `git push heroku master`
+`git push heroku master`
 
 __Strong__ Don't forget to setup the same keys you setup in your .env files in your heroku Congif Vars to get firebase working on heroku. __Strong__
 
